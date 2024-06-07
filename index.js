@@ -64,7 +64,7 @@ exec('git status', function(err, stdout, stderr) {
 				exec('git remote add origin git@github.com:'+auth.user+'/'+argv.name+'.git', function(err, stdout, stderr) {
 					if (err) throw err;
 
-					console.log('Added origin. You might want to: git push -u origin master');
+					console.log('Added origin. we might want to: git push -u origin master');
 				});
 			});
 		});
